@@ -1,0 +1,63 @@
+.title {
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 100%px;
+    margin: 5px;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+
+}
+
+
+.game {
+    display: flex;
+    height: 100px;
+    background-color: brown;
+    position: relative;
+    bottom: 1.5px;
+    justify-content: center;
+    padding: 3px;
+    left: 2px;
+    width: 993px;
+    
+
+
+
+
+
+
+}
+
+#searchbar,
+#bt {
+    height: 20px;
+    position: relative;
+    top: 35px;
+    
+
+
+}
+
+#searchbar {position: relative;
+    right: 10px;
+
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .title {
+        background-color: aqua;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .game{
+        width: 300px;
+    }
+}
